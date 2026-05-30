@@ -3,10 +3,10 @@ module github.com/openweft/weft-client
 go 1.25.0
 
 require (
-	github.com/grpc-transports/ssh v0.0.0-00010101000000-000000000000
-	github.com/grpc-transports/wireguard v0.0.0-00010101000000-000000000000
+	github.com/grpc-transports/ssh v0.2.0
+	github.com/grpc-transports/wireguard v0.1.0
 	github.com/hashicorp/hcl/v2 v2.24.0
-	github.com/openweft/weft-proto v0.0.0
+	github.com/openweft/weft-proto v0.1.0
 	github.com/zclconf/go-cty v1.18.1
 	golang.org/x/crypto v0.50.0
 	golang.org/x/oauth2 v0.36.0
@@ -31,10 +31,4 @@ require (
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20260120221211-b8f7ae30c516 // indirect
 	google.golang.org/protobuf v1.36.11 // indirect
 	gvisor.dev/gvisor v0.0.0-20250503011706-39ed1f5ac29c // indirect
-)
-
-replace (
-	github.com/grpc-transports/ssh => ../../grpc-transports/ssh
-	github.com/grpc-transports/wireguard => ../../grpc-transports/wireguard
-	github.com/openweft/weft-proto => ../weft-proto
 )
