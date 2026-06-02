@@ -7,6 +7,12 @@ and this project aims to adhere to [Semantic Versioning](https://semver.org/spec
 
 ## [Unreleased]
 
+## [v0.2.1] — 2026-06-02
+
+### Changed
+
+- Bump `weft-proto` to v0.4.0 (pulls in `SetHostCordoned` RPC + `HostInfo.cordoned` and `StartVMRequest.requested_gpus` / `requested_pci`).
+
 ## [v0.2.0] — 2026-06-02
 
 ### Changed
