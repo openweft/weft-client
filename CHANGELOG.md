@@ -7,6 +7,12 @@ and this project aims to adhere to [Semantic Versioning](https://semver.org/spec
 
 ## [Unreleased]
 
+## [v0.2.2] — 2026-06-02
+
+### Changed
+
+- Bump `weft-proto` to v0.5.0 (pulls in `ListFederationPeers` and the plugin `ListPluginCatalogue` / `ListInstalledPlugins` / `InstallPlugin` RPCs).
+
 ## [v0.2.1] — 2026-06-02
 
 ### Changed

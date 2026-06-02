@@ -6,7 +6,7 @@ require (
 	github.com/grpc-transports/ssh v0.2.0
 	github.com/grpc-transports/wireguard v0.2.0
 	github.com/hashicorp/hcl/v2 v2.24.0
-	github.com/openweft/weft-proto v0.4.0
+	github.com/openweft/weft-proto v0.5.0
 	github.com/zclconf/go-cty v1.18.1
 	golang.org/x/crypto v0.50.0
 	golang.org/x/oauth2 v0.36.0
