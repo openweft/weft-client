@@ -7,6 +7,12 @@ and this project aims to adhere to [Semantic Versioning](https://semver.org/spec
 
 ## [Unreleased]
 
+## [v0.2.0] — 2026-06-02
+
+### Changed
+
+- Bump `weft-proto` to v0.3.0 (pulls in `GPURequest`, `PCIPassthroughRequest`, and the `requested_gpus` / `requested_pci` fields on `CreateVMRequest` + `RegisterMicroVMRequest`).
+
 ## [v0.1.3] — 2026-05-31
 
 ### Changed
