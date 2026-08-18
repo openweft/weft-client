@@ -1,6 +1,6 @@
 module github.com/openweft/weft-client
 
-go 1.25.0
+go 1.26.4
 
 require (
 	github.com/grpc-transports/ssh v0.2.0
